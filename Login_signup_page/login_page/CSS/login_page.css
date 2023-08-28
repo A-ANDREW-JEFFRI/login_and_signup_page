@@ -1,0 +1,74 @@
+/* UNIVERSAL SELECTOR */
+*{
+    outline: none;
+    box-sizing: border-box;
+} 
+
+/* HTML TAG */
+html{
+    scroll-behavior: smooth;
+}
+
+/* WEBKIT  */
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* BODY  */
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* HERO BOX  */
+.hero_box{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_box_content{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero_box_content p{
+    opacity: 0.7;
+}
+.hero_box_button{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 5px  10px rgba(0,0,0,0.5);
+}
+.hero_box_button .button{
+    text-decoration: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 10px;
+    color: rgb(66, 65, 65);
+    background-color: rgb(225, 223, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(66, 65, 65);
+}
